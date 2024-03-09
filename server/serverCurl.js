@@ -10,9 +10,9 @@ const requestListener = (request, response) => {
         response.end("<h1>Hello</h1>")
     }
 
-    if(method == "POST" {
+    if(method == "POST") {
         response.end("<h1>Hai</h1>")
-    })
+    }
 
     if(method == "PUT") {
         response.end("<h1>Bonjour</h1>")
